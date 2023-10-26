@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <div className='bg-emerald-500'>
-    <nav  className=" bg-green-500 border-gray-200">
+    <nav  className=" bg-green-500 border-gray-200 flex flex-wrap justify-center">
       <div  className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
       <a>
           <img  />
@@ -23,8 +23,8 @@ export default function Home() {
     <div className="max-w-md py-10 px-6 bg-emerald-200 shadow-lg rounded-lg my-10 mx-4">
         <div className="grid justify-content md:justify-end -mt-6">
           <div>
-            <h2 className="text-gray-800 text-2xl font-semibold">Atencion personalizada</h2>
-            <p className="mt-2 text-gray-600 text-sm">
+            <h2 className="text-violet-800 text-2xl font-semibold">Atencion personalizada</h2>
+            <p className="mt-2 text-black text-sm">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores deserunt ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis pariatur minus consequuntur!
             </p>
           </div>
@@ -34,8 +34,8 @@ export default function Home() {
       <div className="max-w-md py-10 px-6 bg-emerald-200 shadow-lg rounded-lg my-10 mx-4">
         <div className="grid justify-content md:justify-end -mt-6">
           <div>
-            <h2 className="text-gray-800 text-2xl font-semibold">Perfumeria</h2>
-            <p className="mt-2 text-gray-600 text-sm">
+            <h2 className="text-violet-800 text-2xl font-semibold">Perfumeria</h2>
+            <p className="mt-2 text-black text-sm">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores deserunt ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis pariatur minus consequuntur!
             </p>
           </div>
@@ -45,8 +45,8 @@ export default function Home() {
       <div className="max-w-md py-10 px-6 bg-emerald-200 shadow-lg rounded-lg my-10 mx-4">
         <div className="grid justify-content md:justify-end -mt-6">
           <div>
-            <h2 className="text-gray-800 text-2xl font-semibold">Cosmetica</h2>
-            <p className="mt-2 text-gray-600 text-sm">
+            <h2 className="text-violet-800 text-2xl font-semibold">Cosmetica</h2>
+            <p className="mt-2 text-black text-sm">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores deserunt ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis pariatur minus consequuntur!
             </p>
           </div>
@@ -55,8 +55,8 @@ export default function Home() {
       <div className="max-w-md py-10 px-6 bg-emerald-200 shadow-lg rounded-lg my-10 mx-4">
         <div className="grid justify-content md:justify-end -mt-6">
           <div>
-            <h2 className="text-gray-800 text-2xl font-semibold">Regaleria</h2>
-            <p className="mt-2 text-gray-600 text-sm">
+            <h2 className="text-violet-800 text-2xl font-semibold">Regaleria</h2>
+            <p className="mt-2 text-black text-sm">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores deserunt ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis pariatur minus consequuntur!
             </p>
           </div>
