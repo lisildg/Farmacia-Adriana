@@ -1,7 +1,6 @@
 import Image from 'next/image'
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
+import {MdLocationOn} from 'react-icons/md';
+import {BsWhatsapp} from 'react-icons/bs';
 
 export default function Home() {
   return (
@@ -65,17 +64,28 @@ export default function Home() {
 
     </div> 
     
-<footer className="bg-emerald-200 rounded-lg shadow m-4">
-    <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
-      <span className="text-sm text-gray-950 sm:text-center ">© 1999-2023 <a href="" className="hover:underline"></a>. All Rights Reserved.
+    <footer className="bg-emerald-200 rounded-lg shadow m-4">
+  <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+    <span className="text-sm text-gray-950 sm:text-center">
+      © 1999-2023 <a href="" className="hover:underline"></a>. All Rights Reserved.
     </span>
-    <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-950  sm:mt-0">
-        
-        <li>
-            <a href="https://api.whatsapp.com/send?phone=54351758057" className="hover:underline">Contacto</a>
-        </li>
+    <div className="flex items-center"> {/* Contenedor para el icono y el texto */}
+      <MdLocationOn />
+      <span className="text-sm ml-2 text-gray-950 sm:text-center">
+        <a href="" className="hover:underline">Córdoba, Argentina</a>
+      </span>
+    </div>
+    <div className="flex items-center"> {/* Contenedor para el icono y el texto */}
+    <BsWhatsapp /> 
+    <ul className="flex flex-wrap items-center ml-2 mt-3 text-sm font-medium text-gray-950 sm:mt-0">
+      <li>
+        <a href="https://api.whatsapp.com/send?phone=54351758057" className="hover:underline">
+           Contacto 
+        </a>
+      </li>
     </ul>
     </div>
+  </div>
 </footer>
 
     </div>
