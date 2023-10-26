@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <div>
+    <div className='bg-emerald-500'>
     <nav  className=" bg-green-500 border-gray-200">
       <div  className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
       <a>
@@ -19,15 +19,57 @@ export default function Home() {
       </div>
     </nav>
 
-    <div className='text-center ml-3 mr-3'>Lorem ipsum dolor sit amet consectetur adipiscing elit proin volutpat, augue suscipit hendrerit phasellus magnis arcu nulla a cubilia, turpis sociosqu porta aliquam fringilla malesuada dui urna. Laoreet nam platea nibh metus tincidunt dui ullamcorper, luctus eleifend arcu non nostra malesuada gravida, per dignissim iaculis curae potenti a. Orci sem nulla at pulvinar metus vivamus diam congue, conubia non suscipit ornare massa nec.
+    <div className="flex flex-wrap justify-center">
+    <div className="max-w-md py-10 px-6 bg-emerald-200 shadow-lg rounded-lg my-10 mx-4">
+        <div className="grid justify-content md:justify-end -mt-6">
+          <div>
+            <h2 className="text-gray-800 text-2xl font-semibold">Atencion personalizada</h2>
+            <p className="mt-2 text-gray-600 text-sm">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores deserunt ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis pariatur minus consequuntur!
+            </p>
+          </div>
+        </div>
+      </div>
 
-Mus pulvinar ad nullam mollis posuere mauris curabitur natoque ultrices risus, luctus leo sed eros a aliquet vitae velit. Faucibus a habitasse vestibulum cum cubilia, scelerisque maecenas semper magna pretium massa, justo nisi laoreet venenatis. Pulvinar placerat velit nunc dis phasellus cum dignissim eu, mollis nulla litora commodo iaculis feugiat cras, rhoncus odio praesent scelerisque eget nostra sollicitudin.</div>
+      <div className="max-w-md py-10 px-6 bg-emerald-200 shadow-lg rounded-lg my-10 mx-4">
+        <div className="grid justify-content md:justify-end -mt-6">
+          <div>
+            <h2 className="text-gray-800 text-2xl font-semibold">Perfumeria</h2>
+            <p className="mt-2 text-gray-600 text-sm">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores deserunt ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis pariatur minus consequuntur!
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="max-w-md py-10 px-6 bg-emerald-200 shadow-lg rounded-lg my-10 mx-4">
+        <div className="grid justify-content md:justify-end -mt-6">
+          <div>
+            <h2 className="text-gray-800 text-2xl font-semibold">Cosmetica</h2>
+            <p className="mt-2 text-gray-600 text-sm">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores deserunt ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis pariatur minus consequuntur!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="max-w-md py-10 px-6 bg-emerald-200 shadow-lg rounded-lg my-10 mx-4">
+        <div className="grid justify-content md:justify-end -mt-6">
+          <div>
+            <h2 className="text-gray-800 text-2xl font-semibold">Regaleria</h2>
+            <p className="mt-2 text-gray-600 text-sm">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores deserunt ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis pariatur minus consequuntur!
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
     
-<footer className="bg-white rounded-lg shadow m-4">
+<footer className="bg-emerald-200 rounded-lg shadow m-4">
     <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
-      <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 1999-2023 <a href="" className="hover:underline"></a>. All Rights Reserved.
+      <span className="text-sm text-gray-950 sm:text-center ">© 1999-2023 <a href="" className="hover:underline"></a>. All Rights Reserved.
     </span>
-    <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500  sm:mt-0">
+    <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-950  sm:mt-0">
         
         <li>
             <a href="https://api.whatsapp.com/send?phone=54351758057" className="hover:underline">Contacto</a>
