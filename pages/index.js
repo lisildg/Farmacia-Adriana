@@ -19,51 +19,7 @@ export default function Home() {
       </div>
     </nav>
 
-    <div className="flex flex-wrap justify-center">
-    <div className="max-w-md py-10 px-6 bg-emerald-200 shadow-lg rounded-lg my-10 mx-4">
-        <div className="grid justify-content md:justify-end -mt-6">
-          <div>
-            <h2 className="text-violet-800 text-2xl font-semibold">Atencion personalizada</h2>
-            <p className="mt-2 text-black text-sm">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores deserunt ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis pariatur minus consequuntur!
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div className="max-w-md py-10 px-6 bg-emerald-200 shadow-lg rounded-lg my-10 mx-4">
-        <div className="grid justify-content md:justify-end -mt-6">
-          <div>
-            <h2 className="text-violet-800 text-2xl font-semibold">Perfumeria</h2>
-            <p className="mt-2 text-black text-sm">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores deserunt ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis pariatur minus consequuntur!
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div className="max-w-md py-10 px-6 bg-emerald-200 shadow-lg rounded-lg my-10 mx-4">
-        <div className="grid justify-content md:justify-end -mt-6">
-          <div>
-            <h2 className="text-violet-800 text-2xl font-semibold">Cosmetica</h2>
-            <p className="mt-2 text-black text-sm">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores deserunt ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis pariatur minus consequuntur!
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className="max-w-md py-10 px-6 bg-emerald-200 shadow-lg rounded-lg my-10 mx-4">
-        <div className="grid justify-content md:justify-end -mt-6">
-          <div>
-            <h2 className="text-violet-800 text-2xl font-semibold">Regaleria</h2>
-            <p className="mt-2 text-black text-sm">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores deserunt ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis pariatur minus consequuntur!
-            </p>
-          </div>
-        </div>
-      </div>
-
-    </div>
+    
     
 <footer className="bg-emerald-200 rounded-lg shadow m-4">
     <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
