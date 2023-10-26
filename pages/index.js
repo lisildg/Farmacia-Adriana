@@ -1,6 +1,8 @@
 import Image from 'next/image'
 import {MdLocationOn} from 'react-icons/md';
 import {BsWhatsapp} from 'react-icons/bs';
+import {MdLocalPharmacy} from 'react-icons/md';
+
 
 export default function Home() {
   return (
@@ -9,8 +11,10 @@ export default function Home() {
       <div  className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
       <a>
           <img  />
-          <span  className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+          <span  className="flex items-center self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+            <MdLocalPharmacy className='mr-3' />
           Farmacia Adriana Battistel
+            <MdLocalPharmacy className='ml-3' />
           </span>
       </a>
       </div>
@@ -72,14 +76,16 @@ export default function Home() {
     <div className="flex items-center"> {/* Contenedor para el icono y el texto */}
       <MdLocationOn />
       <span className="text-sm ml-2 text-gray-950 sm:text-center">
-        <a href="" className="hover:underline">Córdoba, Argentina</a>
+        <a  href="https://www.google.com/maps/search/Córdoba,+Argentina"
+            className="hover:underline hover:text-violet-800 "
+            target="_blank">Córdoba, Argentina</a>
       </span>
     </div>
     <div className="flex items-center"> {/* Contenedor para el icono y el texto */}
     <BsWhatsapp /> 
     <ul className="flex flex-wrap items-center ml-2 mt-3 text-sm font-medium text-gray-950 sm:mt-0">
       <li>
-        <a href="https://api.whatsapp.com/send?phone=54351758057" className="hover:underline">
+        <a href="https://api.whatsapp.com/send?phone=54351758057" className="hover:underline  hover:text-violet-800">
            Contacto 
         </a>
       </li>
