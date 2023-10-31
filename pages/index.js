@@ -38,9 +38,12 @@ export default function Home() {
         <div className="grid justify-content md:justify-end -mt-6">
           <div>
             <h2 className="text-violet-800 text-2xl font-semibold">Perfumeria</h2>
-            <p className="mt-2 text-black text-sm">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores deserunt ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis pariatur minus consequuntur!
-            </p>
+            <div className="mt-2 text-black text-sm">
+              <ul>
+                <li>Estuches de perfume para hombre y mujer</li>
+                <li>Variedad de marcas</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
@@ -49,9 +52,13 @@ export default function Home() {
         <div className="grid justify-content md:justify-end -mt-6">
           <div>
             <h2 className="text-violet-800 text-2xl font-semibold">Cosmetica</h2>
-            <p className="mt-2 text-black text-sm">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores deserunt ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis pariatur minus consequuntur!
-            </p>
+            <div className="mt-2 text-black text-sm">
+              <ul>
+                <li>Cremas para rostro y cuerpo</li>
+                <li>Encontra todo para tu rutina Skin Care</li>
+                <li>Maquilajes linea tejar, pink 21, ruby rose y otras...</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
