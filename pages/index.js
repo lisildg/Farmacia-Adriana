@@ -66,9 +66,13 @@ export default function Home() {
         <div className="grid justify-content md:justify-end -mt-6">
           <div>
             <h2 className="text-violet-800 text-2xl font-semibold">Regaleria</h2>
-            <p className="mt-2 text-black text-sm">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores deserunt ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis pariatur minus consequuntur!
-            </p>
+            <div className="mt-2 text-black text-sm">
+              <ul>
+                <li>Matermos</li>
+                <li>Juguetes</li>
+                <li>Mochilas y carteras</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
